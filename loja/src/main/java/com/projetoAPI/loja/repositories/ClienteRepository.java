@@ -1,6 +1,6 @@
 package com.projetoAPI.loja.repositories;
 
-import com.projetoAPI.loja.controllers.ClienteController;
+
 import com.projetoAPI.loja.models.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 
