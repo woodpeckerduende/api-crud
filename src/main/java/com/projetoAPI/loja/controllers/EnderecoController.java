@@ -30,7 +30,7 @@ public class EnderecoController {
         Optional<Endereco> enderecoOpcional = enderecoRepository.findById(id);
         if (enderecoOpcional.isPresent()) {
             Endereco endereco = enderecoOpcional.get();
-            endereco.setNomeRementente(atualizarEndereco.getNomeRementente());
+            endereco.setNomeRemetente(atualizarEndereco.getNomeRemetente());
             endereco.setRua(atualizarEndereco.getRua());
             endereco.setNumero(atualizarEndereco.getNumero());
             endereco.setComplemento(atualizarEndereco.getComplemento());

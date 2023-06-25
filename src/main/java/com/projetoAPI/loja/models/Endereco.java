@@ -14,7 +14,7 @@ public class Endereco {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String nomeRementente;
+    private String nomeRemetente;
     private String rua;
     private int numero;
     private String complemento;
