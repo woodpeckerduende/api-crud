@@ -21,6 +21,9 @@ public class Pedido {
     // varios pedidos de um unico cliente
     @JoinColumn(name = "cliente_id")
     private Cliente cliente;
+    @ManyToOne
+    @JoinColumn(name = "endereco_id")
+    private Endereco enderecoDeEntrega;
     @ManyToMany
     private List<Produto> produtos;
 }
